@@ -1,0 +1,138 @@
+body{
+    font-family: cursive;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    top: 0;
+}
+.nav-ul{
+    display:flex;
+}
+#navbar::before{
+    content: "";
+    position: absolute;
+    margin: 0px 0px;
+    background-color:#f89bc9;
+    height: 160%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+.item{
+    list-style: none;
+    font-size: 1.6rem;
+}
+p{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.nav-li{
+    display: block;
+    padding: 8px 55px;
+    border-radius: 15px;
+    color: #a50c60;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: white;
+    background-color: #a50c60;
+}
+.logo{
+    margin: 5px 5px;
+}
+    
+.logo img{
+    height: 60px;
+    margin: 5px 6px;
+}
+
+
+/**********************/
+.name{
+    padding: 20px 0px 0px 50px;
+    margin-top: 10px;
+}
+.books{
+    content: "";
+    display: table;
+    clear: both;
+    padding-left: 650px;
+    margin-top: -460px;
+}
+
+.h1{
+    font-family: 'Dancing Script', cursive;
+    color: #a50c60;
+    font-size: 5rem;
+    line-height: 50px;
+}
+h2{
+    color: #a50c60;
+    line-height: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+h3{
+    color: #a50c60;
+    font-size: 1.6rem;
+}
+h1{
+    color: #a50c60;
+    line-height: 200px;
+    font-size: 2rem;
+}
+.h-primary{
+    color: #a50c60;
+    text-align: center;
+    padding: 40px ;
+    font-size: 3rem;
+}
+.h-secondary{
+    text-align: center;
+    padding: 25px ;
+    font-size: 3rem;
+}
+
+  
+#books-category{
+    text-align: center;
+}
+
+.category{
+    border:2px solid #f89bc9;
+    margin: 10px 25px 80px 65px;
+    float: left;
+    width: 25%;
+}
+.category1::after{
+    content: "";
+    border:2px solid #f89bc9;
+    display: table;
+    clear: both;
+}
+/***********************/
+.services{
+    background-color:#a50c60 ;
+    display: flex;
+    text-align: center;
+    padding: 30px 10px;
+}
+.text1{
+    font-family: cursive;
+    font-size: 1.5rem;
+    margin-left:150px;
+   color:white;
+   display: block;
+}
+.text1-p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin: 10px;
+    text-align: justify;
+
+}
+/**********************/
+.center{
+    text-align: center;
+    color:#a50c60;
+}  
